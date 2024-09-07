@@ -1,0 +1,40 @@
+body {
+  background-color: #f5d6ba;
+  .container {
+    .row {
+      .card {
+        .header-card-text {
+          background-color: #ffbb80;
+        }
+        border: unset;
+        width: 25vw;
+        background-color: #f5d6ba;
+        .card-body-btm {
+          height: 35vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        .img-box {
+          height: 50vh;
+          background-color: #f5d6ba;
+          border-radius: 25px !important;
+          -webkit-border-radius: 25px !important;
+          -moz-border-radius: 25px !important;
+          -ms-border-radius: 25px !important;
+          -o-border-radius: 25px !important;
+          .card-img-top {
+            border-radius: 50% 0 0 0;
+            -webkit-border-radius: 50% 0 0 0;
+            -moz-border-radius: 50% 0 0 0;
+            -ms-border-radius: 50% 0 0 0;
+            -o-border-radius: 50% 0 0 0;
+          }
+        }
+        .card-body {
+          background-color: #f5d6ba;
+        }
+      }
+    }
+  }
+}
